@@ -1,5 +1,7 @@
 # Promiredis
 
+[![Build Status](https://travis-ci.org/esayemm/promiredis.svg?branch=master)](https://travis-ci.org/esayemm/promiredis)
+
 Promise wrapped node redis client.
 
 ## Installation
