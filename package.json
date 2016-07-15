@@ -1,7 +1,7 @@
 {
-  "name": "starter-deck_js-module",
+  "name": "promiredis",
   "version": "0.0.0",
-  "description": "Starter-deck for a js module using babel to enable writing in es2015.",
+  "description": "Promise wrapped node redis client",
   "main": "lib/index.js",
   "directories": {
     "example": "example"
@@ -37,13 +37,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/you/foo.git"
+    "url": "git+https://github.com/esayemm/promiredis.git"
   },
   "author": "Sam Lau",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/you/foo/issues"
+    "url": "https://github.com/esayemm/promiredis/issues"
   },
-  "keywords": [],
-  "homepage": "https://github.com/you/foo#readme"
+  "keywords": [
+    "redis",
+    "promise"
+  ],
+  "homepage": "https://github.com/esayemm/promiredis#readme"
 }
