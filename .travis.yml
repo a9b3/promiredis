@@ -2,7 +2,11 @@ language: node_js
 node_js:
   - "5.1"
 
-services: redis
+services:
+  - redis-server
+
+env:
+  - NODE_ENV=travis REDIS_HOST=localhost REDIS_PORT=6379
 
 cache:
   directories:
